@@ -20,6 +20,20 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $("img#dog").click(function() {
-    $("#img2").toggle(2000);
+    $("#img2").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".container").click(function() {
+    $("#carouselExampleSlidesOnly").hide();
+
+  });
+});
+
+$(document).ready(function() {
+  $("#heading").click(function() {
+    $("#carouselExampleSlidesOnly").show();
+
   });
 });
